@@ -1,54 +1,5 @@
-i/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  min-height: 100vh;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #333;
-}
-
-.container {
-  background: #ffffff;
-  padding: 40px 50px;
-  border-radius: 12px;
-  width: 100%;
-  max-width: 520px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
   text-align: center;
-  animation: fadeIn 0.8s ease-in-out;
 }
-
-.container h1 {
-  font-size: 28px;
-  margin-bottom: 20px;
-  color: #2c5364;
-}
-
-.container p {
-  font-size: 16px;
-  margin-bottom: 12px;
-  color: #555;
-}
-
-.instance {
-  margin-top: 25px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #0f2027;
-  background: #ecf4f7;
-  padding: 12px;
-  border-radius: 8px;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-
